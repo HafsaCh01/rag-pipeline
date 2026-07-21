@@ -1,0 +1,9 @@
+datasets==5.0.0
+pandas==3.0.2
+numpy==2.4.4
+langdetect==1.0.9
+ftfy==6.3.1
+beautifulsoup4==4.14.3
+lxml==6.0.2
+pytest==9.1.1
+tqdm==4.69.0
