@@ -1,0 +1,11 @@
+{
+  "model_name": "all-MiniLM-L6-v2",
+  "num_articles": 5880,
+  "num_chunks": 5910,
+  "chunk_size": 500,
+  "chunk_overlap": 50,
+  "chunking_time_seconds": 1.4814,
+  "embedding_time_seconds": 310.6667,
+  "avg_time_per_chunk_ms": 52.5663,
+  "embedding_dim": 384
+}

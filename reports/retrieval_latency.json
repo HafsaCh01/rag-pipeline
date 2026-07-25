@@ -1,0 +1,46 @@
+{
+  "collection_size": 5910,
+  "num_queries": 5,
+  "top_k": 5,
+  "avg_latency_ms": 376.3987,
+  "min_latency_ms": 128.7181,
+  "max_latency_ms": 999.7907,
+  "median_latency_ms": 213.7966,
+  "queries": [
+    {
+      "query": "stock market rally and investor sentiment",
+      "latency_ms": 999.7907,
+      "top_result_preview": "Stocks Move Up Despite Election Jitters. Despite its nervousness over the presidential election, Wall Street extended its rally Tuesday, pushing stock",
+      "top_result_distance": 0.3905,
+      "num_results": 5
+    },
+    {
+      "query": "sports championship results",
+      "latency_ms": 128.7181,
+      "top_result_preview": "Today's schedule. Pro basketball: Exhibition: Celtics vs. Detroit at the FleetCenter, 6 p.m. College field hockey: Harvard at BU, 3 p.m.; UConn at Fai",
+      "top_result_distance": 0.5068,
+      "num_results": 5
+    },
+    {
+      "query": "new government policy announcement",
+      "latency_ms": 181.1764,
+      "top_result_preview": "Breaking: markets react to Fed decision . Labour #39;s anti-terror pledge. Home Secretary David Blunkett has signalled that a third term Labour govern",
+      "top_result_distance": 0.5719,
+      "num_results": 5
+    },
+    {
+      "query": "technology company product launch",
+      "latency_ms": 358.5117,
+      "top_result_preview": "The Vision Thing. Tech companies can #39;t just have products. They have to have a vision. At companies in just about any business more complicated th",
+      "top_result_distance": 0.4701,
+      "num_results": 5
+    },
+    {
+      "query": "international conflict and diplomacy",
+      "latency_ms": 213.7966,
+      "top_result_preview": "China clings to diplomatic mechanism. The Chinese Foreign Ministry said Tuesday it remains hopeful six-party talks on the North Korean nuclear program",
+      "top_result_distance": 0.5235,
+      "num_results": 5
+    }
+  ]
+}
