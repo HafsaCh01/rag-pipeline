@@ -35,6 +35,28 @@ def semantic_search(collection, model, query: str, top_k: int = TOP_K):
     return results, elapsed_ms
 
 
+def search(query: str, k: int = TOP_K):
+    client = get_client()
+    collection = get_or_create_collection(client, COLLECTION_NAME)
+    model = load_model()
+
+    results, elapsed_ms = semantic_search(collection, model, query, top_k=k)
+
+    documents = (results.get("documents") or [[]])[0]
+    distances = (results.get("distances") or [[]])[0]
+    ids = (results.get("ids") or [[]])[0]
+
+    chunks = []
+    for i in range(len(documents)):
+        chunks.append({
+            "chunk_id": ids[i] if i < len(ids) else i,
+            "text": documents[i],
+            "distance": distances[i] if i < len(distances) else None
+        })
+
+    return chunks
+
+
 def run_benchmark(queries: list = TEST_QUERIES, top_k: int = TOP_K):
     client = get_client()
     collection = get_or_create_collection(client, COLLECTION_NAME)

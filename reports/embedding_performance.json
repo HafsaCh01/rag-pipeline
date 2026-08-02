@@ -4,8 +4,8 @@
   "num_chunks": 5910,
   "chunk_size": 500,
   "chunk_overlap": 50,
-  "chunking_time_seconds": 1.4814,
-  "embedding_time_seconds": 310.6667,
-  "avg_time_per_chunk_ms": 52.5663,
+  "chunking_time_seconds": 0.6437,
+  "embedding_time_seconds": 158.9932,
+  "avg_time_per_chunk_ms": 26.9024,
   "embedding_dim": 384
 }

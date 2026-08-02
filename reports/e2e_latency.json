@@ -1,0 +1,137 @@
+[
+  {
+    "query": "What happened in the stock market recently?",
+    "answer": null,
+    "in_domain": true,
+    "num_chunks_retrieved": 5,
+    "retrieval_latency_seconds": 8.604,
+    "generation_latency_seconds": 0.504,
+    "total_latency_seconds": 9.108,
+    "hallucination_check": {
+      "flagged": false,
+      "reason": "no answer generated"
+    },
+    "llm_error": "Unexpected status 404: {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.3-70b-instruct\",\"code\":404},\"user_id\":\"user_3HNBwpPwx5LhwW23O75if",
+    "timestamp": "2026-08-03T01:18:24.694038"
+  },
+  {
+    "query": "Who won the latest Olympic gold medal in curling?",
+    "answer": null,
+    "in_domain": true,
+    "num_chunks_retrieved": 5,
+    "retrieval_latency_seconds": 8.317,
+    "generation_latency_seconds": 0.181,
+    "total_latency_seconds": 8.498,
+    "hallucination_check": {
+      "flagged": false,
+      "reason": "no answer generated"
+    },
+    "llm_error": "Unexpected status 404: {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.3-70b-instruct\",\"code\":404},\"user_id\":\"user_3HNBwpPwx5LhwW23O75if",
+    "timestamp": "2026-08-03T01:18:33.203179"
+  },
+  {
+    "query": "What are the latest developments in technology?",
+    "answer": null,
+    "in_domain": true,
+    "num_chunks_retrieved": 5,
+    "retrieval_latency_seconds": 8.181,
+    "generation_latency_seconds": 0.279,
+    "total_latency_seconds": 8.46,
+    "hallucination_check": {
+      "flagged": false,
+      "reason": "no answer generated"
+    },
+    "llm_error": "Unexpected status 404: {\"error\":{\"message\":\"This model is unavailable for free. The paid version is available now - use this slug instead: meta-llama/llama-3.3-70b-instruct\",\"code\":404},\"user_id\":\"user_3HNBwpPwx5LhwW23O75if",
+    "timestamp": "2026-08-03T01:18:41.696581"
+  },
+  {
+    "query": "What happened in the stock market recently?",
+    "answer": null,
+    "in_domain": true,
+    "num_chunks_retrieved": 5,
+    "retrieval_latency_seconds": 9.222,
+    "generation_latency_seconds": 17.203,
+    "total_latency_seconds": 26.425,
+    "hallucination_check": {
+      "flagged": false,
+      "reason": "no answer generated"
+    },
+    "llm_error": null,
+    "timestamp": "2026-08-03T01:23:25.870098"
+  },
+  {
+    "query": "Who won the latest Olympic gold medal in curling?",
+    "answer": "I don't have enough information in the retrieved context to answer this question.",
+    "in_domain": true,
+    "num_chunks_retrieved": 5,
+    "retrieval_latency_seconds": 7.44,
+    "generation_latency_seconds": 1.595,
+    "total_latency_seconds": 9.035,
+    "hallucination_check": {
+      "flagged": false,
+      "reason": "model correctly refused"
+    },
+    "llm_error": null,
+    "timestamp": "2026-08-03T01:23:35.011858"
+  },
+  {
+    "query": "What are the latest developments in technology?",
+    "answer": "\n\nThe latest developments in technology include:  \n- Products becoming smarter, faster, smaller, cheaper, and more colorful (Source: chunk_1185).  \n- AMD and IBM advancing chip performance with faster chips without increased power requirements (Source: chunk_99).  \n- Progress in domestic security technology despite privacy concerns (Source: chunk_4622).  \n",
+    "in_domain": true,
+    "num_chunks_retrieved": 5,
+    "retrieval_latency_seconds": 7.105,
+    "generation_latency_seconds": 10.341,
+    "total_latency_seconds": 17.447,
+    "hallucination_check": {
+      "flagged": false,
+      "reason": "context overlap 57.89%"
+    },
+    "llm_error": null,
+    "timestamp": "2026-08-03T01:23:52.580951"
+  },
+  {
+    "query": "What happened in the stock market recently?",
+    "answer": "Based on the provided context, there are several reports regarding recent stock market activity:\n\n*   Stocks moved modestly higher on a Friday as a dip in oil prices and a satisfactory report on durable goods orders cheered investors, with the Dow Jones industrial average up 39.75 (0.4 percent) at 10,078.65 (Source: chunk_2176).\n*   Stocks rose for a second straight session on a Tuesday as a drop in consumer prices and a decline in crude oil futures allowed investors to put aside inflation worries, with the Dow Jones industrial average pushing past the 10,000 mark for the first time in nearly two weeks (Source: chunk_3959).\n*   Stocks ended slightly lower on a Friday as a higher-than-expected jump in U.S. producer prices offset a fall in oil prices and dividend hikes from General Electric Co. and SBC Communications (Source: chunk_188).\n*   US blue-chip stocks ended barely higher on a Friday, though a spike in oil prices to near record levels pared earlier gains and renewed concerns regarding high energy prices (Source: chunk_2181).",
+    "in_domain": true,
+    "num_chunks_retrieved": 5,
+    "retrieval_latency_seconds": 8.251,
+    "generation_latency_seconds": 22.686,
+    "total_latency_seconds": 30.938,
+    "hallucination_check": {
+      "flagged": false,
+      "reason": "context overlap 75.45%"
+    },
+    "llm_error": null,
+    "timestamp": "2026-08-03T01:28:24.798589"
+  },
+  {
+    "query": "Who won the latest Olympic gold medal in curling?",
+    "answer": "I don't have enough information in the retrieved context to answer this question.",
+    "in_domain": true,
+    "num_chunks_retrieved": 5,
+    "retrieval_latency_seconds": 7.96,
+    "generation_latency_seconds": 0.641,
+    "total_latency_seconds": 8.601,
+    "hallucination_check": {
+      "flagged": false,
+      "reason": "model correctly refused"
+    },
+    "llm_error": null,
+    "timestamp": "2026-08-03T01:28:33.415845"
+  },
+  {
+    "query": "What are the latest developments in technology?",
+    "answer": "Based on the provided context, here are the latest developments in technology:\n\n1. **Chip Performance Improvements**: AMD and IBM have developed new manufacturing technology that can result in faster chips without increasing power requirements (Source: chunk_99).\n\n2. **Smart, Faster, Smaller Devices**: Products across various categories including PCs, software, mobile gadgets, and home electronics are becoming smarter, faster, smaller, cheaper, and more colorful (Source: chunk_1185).\n\n3. **Internet Infrastructure Changes**: Intel's chief technology officer Pat Gelsinger has indicated that the internet needs to be changed to cope with future demands, though the specific details of these changes are not fully detailed in the context (Source: chunk_475).\n\n4. **Domestic Security Technology**: There is ongoing discussion about advancing domestic security technology, though this faces challenges from civil liberties and privacy advocacy groups (Source: chunk_4622).\n\n5. **Future Technology Trends**: Gartner Research analyst Alexander Linden is set to discuss the future of technology at an upcoming symposium in Cannes, France (Source: chunk_53).\n\nI don't have enough information in the retrieved context to provide a more comprehensive answer about the latest developments in technology.",
+    "in_domain": true,
+    "num_chunks_retrieved": 5,
+    "retrieval_latency_seconds": 7.644,
+    "generation_latency_seconds": 6.258,
+    "total_latency_seconds": 13.902,
+    "hallucination_check": {
+      "flagged": false,
+      "reason": "model correctly refused"
+    },
+    "llm_error": null,
+    "timestamp": "2026-08-03T01:28:47.432392"
+  }
+]

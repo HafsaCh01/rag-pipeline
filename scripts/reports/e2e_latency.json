@@ -1,0 +1,32 @@
+[
+  {
+    "query": "What happened in the stock market recently?",
+    "answer": "This question appears to be outside the scope of this dataset (AG News articles).",
+    "in_domain": false,
+    "domain_reason": "no chunks retrieved — likely off-topic for this dataset",
+    "retrieval_latency_seconds": 11.95,
+    "generation_latency_seconds": null,
+    "total_latency_seconds": 11.95,
+    "timestamp": "2026-08-03T01:06:25.280356"
+  },
+  {
+    "query": "Who won the latest Olympic gold medal in curling?",
+    "answer": "This question appears to be outside the scope of this dataset (AG News articles).",
+    "in_domain": false,
+    "domain_reason": "no chunks retrieved — likely off-topic for this dataset",
+    "retrieval_latency_seconds": 7.48,
+    "generation_latency_seconds": null,
+    "total_latency_seconds": 7.48,
+    "timestamp": "2026-08-03T01:06:32.768264"
+  },
+  {
+    "query": "What are the latest developments in technology?",
+    "answer": "This question appears to be outside the scope of this dataset (AG News articles).",
+    "in_domain": false,
+    "domain_reason": "no chunks retrieved — likely off-topic for this dataset",
+    "retrieval_latency_seconds": 7.234,
+    "generation_latency_seconds": null,
+    "total_latency_seconds": 7.234,
+    "timestamp": "2026-08-03T01:06:40.102468"
+  }
+]
